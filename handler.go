@@ -5,7 +5,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/smartystreets/training-cohort/calc/calc"
+	"github.com/smartystreets/training-cohort/calcy-lib/calc"
 )
 
 type Handler struct {
