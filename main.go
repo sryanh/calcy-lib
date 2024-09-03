@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/smartystreets/training-cohort/calcy-lib/calc"
+	"github.com/sryanh/calcy-lib/calc"
 )
 
 func main() {
