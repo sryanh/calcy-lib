@@ -5,9 +5,15 @@ import (
 	"os"
 	"testing"
 
-	"github.com/smartystreets/training-cohort/calcy-lib/calc"
+	"github.com/sryanh/calcy-lib/calc"
 )
 
+func assertEqual(t *testing.T, a any, b any) {
+	if a != b {
+		t.Error("Expected them to be equal but they weren't.")
+	}
+}
+func assertFail(t *testing.T, a any, b any) {}
 func TestMissingInput(t *testing.T) {
 	var values []string
 	handle := NewHandler(os.Stdout, calc.Addition{})
